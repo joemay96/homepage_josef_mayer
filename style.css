@@ -1,17 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #E9F8FC;
+    background-color: #E9F8FC;
+    /*background-image: url("public/background.jpg");*/
 }
 
 h1 {
     font-weight: bold;
     font-size: 64px;
-    color: B3B3B3;
+    color: #464747;
     text-align: left;
     margin-bottom: 50px;
     margin-top: 150px;
@@ -22,4 +24,46 @@ h2 {
     font-size: 32px;
     font-weight: semi-bold;
     margin-left: 100px;
+    color: #464747;
+}
+
+div {
+    margin-top: 50px;
+    margin-left:100px;
+}
+
+a {
+    font-weight: bolder;
+    color: #4c5050;
+}
+
+a:hover {
+    background: linear-gradient(to right, #CDC7E5 50%, #E9F8FC 50%) left;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+    border-radius: 3%;
+    padding: 0 20px;
+}
+
+p {
+    color: #464747;
+}
+
+span.divider {
+    margin: 10px;
+}
+
+span.name {
+    color: cornflowerblue;
+}
+/*
+
+ */
+section {
+    width: 100%;
+    min-height: 500px;
+}
+
+.pattern {
+    
 }
