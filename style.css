@@ -7,9 +7,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: green;
+    background-color: #00000e;
     -webkit-font-smoothing: antialiased;
     background-image: url("public/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
